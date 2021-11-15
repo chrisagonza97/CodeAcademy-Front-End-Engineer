@@ -1,0 +1,75 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 28px;
+    font-family:'Lato', sans-serif;
+}
+h2{
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family:'Nunito', sans-serif;
+}
+#mono h3, #mono p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+#lato h3, #lato p{
+    font-family: 'Lato', sans-serif;
+}
+#nunito h3, #nunito p{
+    font-family: 'Nunito', sans-serif;
+}
+#mono h3{
+    text-decoration: underline;
+}
+#lato h3{
+    text-decoration: underline;
+}
+#nunito h3{
+    text-decoration: underline;
+}
+li{
+    font-family: 'Nunito', sans-serif
+}
+section{
+    border: 2px solid dodgerblue;
+    margin:20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#heading{
+    margin-left: 20px;
+}
+#darkt{
+    background-color: darkturquoise
+}
+#dsblue{
+    background-color: deepskyblue;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
+#choco{
+    background-color: chocolate;
+}
+#red{
+    background-color:red;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    
+    border-radius: 5px;
+    margin: 10px;
+}
+figure p{
+    margin: 25px;
+    line-height:35px;
+}
