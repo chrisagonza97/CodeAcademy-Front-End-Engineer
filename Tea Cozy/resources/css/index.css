@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    
+}
+main{
+    text-align: center;
+    padding-top:34px;
+}
+#mission{
+    display:black;
+    background-image: url("../../resources/images/img-mission-background.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+}
+#mission-text{
+    background:black;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%) ;
+}
+
+#totm{
+    text-align: center;
+    
+}
+#figures{
+    /*display:flex;
+    caption-side: bottom;
+    flex-direction: column;
+    */
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width:0;
+    margin:0 18%;
+    
+}
+.loc-div{
+    display:inline;
+    min-width: 300px;
+    background-color: black;
+    line-height: 2.5;
+    margin: 15px 40px;
+}
+.loc-div address{
+    display:inline;
+}
+#locations{
+    background-image: url("../../resources/images/img-locations-background.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    justify-content:center;
+    padding-top: 35px;
+    
+    min-height:500px;
+    width:auto;
+    
+}
+#inner-loc{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    min-width:0;
+}
+figcaption{
+    caption-side: bottom;
+    display: block;
+    
+    /*position: absolute;*/
+
+}
+figure{
+    /*display: inline-flex;*/
+}
+header{
+    display: inline-block;
+    border-bottom: 1px solid seashell;
+    height: 68px;
+    width: 100%;
+    top: 0;
+    position:fixed;
+    background-color:black;
+    z-index: 5;
+}
+figure img{
+    height: 200px;
+    width: 300px;
+}
+header nav{
+    float:right;
+    padding-top: 15px;
+}
+#copyright{
+    text-align:left;
+    margin-left:20px;
+}
+footer{
+    height: 200px;
+}
+header nav li{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+header nav li a{
+    color: seashell;
+}
+header nav, header ul, header li{
+    text-align: right !important;  
+    display: inline-block;
+}
+header img{
+    margin-top: 10px;
+    margin-left:10px;
+    height:50px;
+    width:auto;
+    text-align: left;
+    
+}
+@media only screen and (max-width: 768px) {
+    nav{
+        visibility:hidden;
+    }
+}
