@@ -1,0 +1,117 @@
+header li{
+    display: inline-block;
+}
+header nav{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+header{
+    background-color: #184e77;
+    position:fixed;
+    top: 0%;
+    min-width:100%;
+    margin-right: 20px;
+    left: 0%;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(90deg, #1a759f, #99d98c);
+    
+}
+header ul{
+    display: inline;
+}
+header h1{
+    display:inline;
+    padding-left: 15px;
+}
+#projects{
+    margin-left: 5%;
+}
+h3::before{
+    content: "\2192";
+}
+h3:hover{
+    cursor: pointer;
+}
+main{
+    margin-top: 40px;
+    /*margin-left:15%;
+    margin-right: 15%;
+    text-align:justify;*/
+}
+figure img{
+    height: 450px;
+    width: auto;
+}
+header a{
+    text-decoration: none;
+    color: rgb(40, 63, 58);
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f7f7f8;
+    width:100%;
+    left:0%;
+    color: rgb(35, 54, 50);
+    background-image: linear-gradient(to bottom,#184e77, #1e6091, #1a759f, #168aad, #34a0a4, #52b69a)
+}
+#tea-cozy figure{
+    display: none;
+    
+}
+figcaption{
+    width: 50%;
+    line-height: 2.0;
+}
+#dasmotos figure{
+    display: none;
+}
+#react-calc figure{
+    display: none;
+}
+#design-guide figure{
+    display:none;
+}
+#random-quote figure{
+    display: none;
+}
+figure{
+    transition: display 1.5s linear 0ms;
+}
+#skills figure{
+    display:flex;
+    justify-content: space-between;
+}
+
+#skills{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#about{
+    font-family: 'Cinzel', serif;
+    color:rgb(40, 63, 58);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    min-height: 700px;
+    
+    z-index: 2;
+    background-image: linear-gradient(45deg, #1a759f, #99d98c);
+    background-repeat: repeat-y;
+}
+#about p{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 32px;
+    line-height: 2;
+    
+}
+#about h2{
+    font-family: 'Cinzel', serif;
+    font-size: 64px;
+    
+}
+#contact{
+    margin-left: 5%;
+}
